@@ -162,9 +162,25 @@ main {
    flex-direction: column;
     flex-wrap: wrap;
 } */
-.text{
+.text {
     /* text-align: center; */
-display: flex;
-justify-content: center;
-align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conncet {
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    /* align-items: center; */
+    gap: 30px
+}
+
+.footer{
+    margin-top:130px;
+}
+.input-file{
+    margin: 20px;
+    padding: 20px;
 }
